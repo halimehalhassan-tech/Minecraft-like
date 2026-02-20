@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mini Minecraft Web</title>
+<style>
+body{margin:0;overflow:hidden;}
+canvas{display:block;}
+#ui{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:10px;}
+.button{width:60px;height:60px;background:rgba(0,0,0,0.5);color:white;text-align:center;line-height:60px;font-weight:bold;border-radius:10px;user-select:none;}
+#hearts{position:absolute;top:10px;left:10px;font-size:24px;color:red;font-weight:bold;user-select:none;}
+</style>
+</head>
+<body>
+<div id="hearts">❤❤❤❤❤</div>
+<div id="ui">
+  <div class="button" id="up">↑</div>
+  <div class="button" id="left">←</div>
+  <div class="button" id="down">↓</div>
+  <div class="button" id="right">→</div>
+  <div class="button" id="jump">⬆
